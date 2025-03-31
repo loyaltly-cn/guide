@@ -42,7 +42,7 @@
     "type-check": "vue-tsc --noEmit",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "postinstall": "npx simple-git-hooks",
+    "postinstall": "npx simple-git-hooks && husky install ../.git",
     "prepare": "husky install",
     "commit": "git-cz",
     "release-major": "standard-version --release-as major",
