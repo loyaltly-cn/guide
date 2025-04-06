@@ -10,12 +10,48 @@
       }
     },
     {
+      "path": "pages/aiFind",
+      "type": "page",
+      "style": {
+        "navigationBarTitleText": "评价导游"
+      }
+    },
+    {
+      "path": "pages/appraise",
+      "type": "page",
+      "style": {
+        "navigationBarTitleText": "评价导游"
+      }
+    },
+    {
+      "path": "pages/appraiseSuccess",
+      "type": "page",
+      "style": {
+        "navigationBarTitleText": "评价导游"
+      }
+    },
+    {
+      "path": "pages/guideDetails",
+      "type": "page",
+      "style": {
+        "navigationBarTitleText": "导游详情"
+      }
+    },
+    {
       "path": "pages/my",
       "type": "page",
       "layout": "tabbar",
       "name": "my",
       "style": {
         "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/setting",
+      "type": "page",
+      "name": "setting",
+      "style": {
+        "navigationBarTitleText": "设置"
       }
     },
     {
@@ -54,7 +90,7 @@
         "pagePath": "pages/index"
       },
       {
-        "pagePath": "pages/hi"
+        "pagePath": "pages/my"
       }
     ]
   },

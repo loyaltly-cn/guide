@@ -12,6 +12,14 @@ const code = () => {
 </script>
 
 <template>
+  <wd-navbar fixed
+             placeholder
+             title="验证码登录"
+             safeAreaInsetTop
+             left-text="返回"
+             left-arrow
+             @click-left="handleClickLeft"
+  ></wd-navbar>
   <view class="p-[18px] flex flex-col h-[95vh]">
     <text class="text-[28px] font-bold">验证码登录</text>
     <wd-input type="text" v-model="value" placeholder="请输入用户名" @change="handleChange"/>

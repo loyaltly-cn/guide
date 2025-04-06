@@ -24,7 +24,7 @@ export default defineUniPages({
     list: [{
       pagePath: 'pages/index',
     }, {
-      pagePath: 'pages/hi',
+      pagePath: 'pages/my',
     }],
   },
 })

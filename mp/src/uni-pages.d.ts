@@ -5,7 +5,12 @@
 
 interface NavigateToOptions {
   url: "/pages/index" |
+       "/pages/aiFind" |
+       "/pages/appraise" |
+       "/pages/appraiseSuccess" |
+       "/pages/guideDetails" |
        "/pages/my" |
+       "/pages/setting" |
        "/pages/login/codeLogin" |
        "/pages/login/editCode" |
        "/pages/login/role" |
@@ -14,7 +19,7 @@ interface NavigateToOptions {
 interface RedirectToOptions extends NavigateToOptions {}
 
 interface SwitchTabOptions {
-  url: "/pages/index" | "/pages/hi"
+  url: "/pages/index" | "/pages/my"
 }
 
 type ReLaunchOptions = NavigateToOptions | SwitchTabOptions;
